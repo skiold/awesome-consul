@@ -68,10 +68,11 @@ This is a list of awesome third-party consul projects, libraries.
 + Scala
     + [codacy/scala-consul](https://github.com/codacy/scala-consul)
 
-### Notification
+### Monitoring
 
 + [consul-alerts](https://github.com/AcalephStorage/consul-alerts)
-
++ [prometheus consul config](https://prometheus.io/docs/operating/configuration/#%3Cconsul_sd_config%3E)
+ 
 ### Practices
 
 #### Configuration Management
@@ -97,11 +98,15 @@ Then, start the consul agent and the web UI:
 $ bin/consul agent -config-dir ./consul.d
 ```
 
++ [ianitor](https://github.com/ClearcodeHQ/ianitor): register new services through consul API and manage TTL health checks
+
 #### Others
 
 + [Consul KV backup](https://github.com/kailunshi/consul-backup)
++ [consul backinator](https://github.com/myENA/consul-backinator)
 + [consul-cli: Command line interface](https://github.com/CiscoCloud/consul-cli)
 + [consul-do: Do something based on leadership status](https://github.com/zeroXten/consul-do)
++ [consul-kv-dashboard](https://github.com/fujiwara/consul-kv-dashboard)
 + [crypt: Store and retrieve encrypted configs](https://github.com/xordataexchange/crypt)
 + [git2consul: Mirrors for multiple git repos](https://github.com/Cimpress-MCP/git2consul)
 + [kvexpress: Go program to move data in and out of Consul's KV store](https://github.com/DataDog/kvexpress)
